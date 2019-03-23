@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 #include<vector>
 #include<map>
+#include<queue>
+#include<stack>
 #include<utility>
 #define mytype char
 
