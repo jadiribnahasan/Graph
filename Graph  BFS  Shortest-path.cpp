@@ -121,7 +121,6 @@ int main()
         struct node *temp = ver[v[i]];
         temp = temp->next;
         while(temp != NULL){
-            //cout << temp->vertex << endl;
             od[ver[v[i]]->vertex] = od[ver[v[i]]->vertex] + 1;
             temp = temp->next;
         }
@@ -175,6 +174,47 @@ int main()
 
 
 }
+
+
+/*
+8
+r
+s
+t
+u
+v
+w
+x
+y
+2
+s
+v
+2
+r
+w
+3
+w
+x
+u
+2
+t
+y
+1
+r
+3
+s
+t
+x
+3
+w
+t
+y
+2
+x
+u
+*/
+
+
 
 
 
