@@ -87,5 +87,4 @@ int main()
     cout << "Outdegree : " << odeg << "\nIndegree :  " << ideg << endl;
     cout << od['B'] << endl;
 
-
 }
